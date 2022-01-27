@@ -4,7 +4,7 @@ const session = require('express-session')
 const authRoutes = require('./routes/auth.routes')
 const categoryRoutes = require('./routes/categories.routes')
 const productRoutes = require('./routes/products.routes')
-const userFavoriteRoutes = require('./routes/userFavoriteProducts')
+const userFavoriteRoutes = require('./routes/userFavoriteProducts.routes')
 const queries = require('../db/queries')
 const exceptionMiddleware = require('../exceptions/middlewares/main-exception-middleware')
 
