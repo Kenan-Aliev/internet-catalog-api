@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="341b76a9-9810-4dd3-9d05-a23e2d1b9584" name="Default Changelist" comment="" />
+    <list default="true" id="341b76a9-9810-4dd3-9d05-a23e2d1b9584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auth-api-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-api-service/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-api-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-api-service/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-api-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main-api-service/exceptions/api-error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api-service/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api-service/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api-service/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api-service/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/db/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/queries.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/db/queries.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/api-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api-service/exceptions/api-error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/middlewares/auth-exception-middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api-service/exceptions/middlewares/auth-exception-middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/middlewares/main-exception-middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/exceptions/middlewares/main-exception-middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/controllers/categories.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/controllers/products.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/controllers/products.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/controllers/userFavoriteProducts.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/controllers/userFavoriteProducts.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/routes/auth.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/routes/categories.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/routes/categories.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/routes/products.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/routes/products.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/routes/userFavoriteProducts.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/routes/userFavoriteProducts.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/services/auth.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/services/categories.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/services/categories.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/services/products.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/services/products.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-api/services/userFavoriteProducts.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/main-api-service/services/userFavoriteProducts.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +60,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\99655\Desktop\internet-catalog\auth-api-service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\99655\Desktop\internet-catalog\exceptions" />
+      <recent name="C:\Users\99655\Desktop\internet-catalog\main-api-service" />
       <recent name="C:\Users\99655\Desktop\internet-catalog" />
+      <recent name="C:\Users\99655\Desktop\internet-catalog\exceptions" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -49,6 +90,14 @@
       <workItem from="1643122137257" duration="7034000" />
       <workItem from="1643175167645" duration="10338000" />
       <workItem from="1643264836696" duration="8793000" />
+      <workItem from="1643273976738" duration="203000" />
+      <workItem from="1643459834286" duration="4935000" />
+      <workItem from="1643530330988" duration="315000" />
+      <workItem from="1643530692072" duration="18000" />
+      <workItem from="1643530898279" duration="4577000" />
+      <workItem from="1643549994596" duration="2655000" />
+      <workItem from="1643552751319" duration="10693000" />
+      <workItem from="1643599087760" duration="1915000" />
     </task>
     <servers />
   </component>
@@ -56,14 +105,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1643124631937">
+    <state x="516" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643552486482">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1643124631937" />
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1643264836383">
+    <state x="516" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1643552486482" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643528926901">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1643264836383" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1643528926901" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1643599595233">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1643599595233" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1643529151527">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1643529151527" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1643529151527">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1643529151527" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1643529151526">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1643529151526" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1643529151527">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1643529151527" />
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1643552751418">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="465" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1643552751418" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1643104178488">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

@@ -1,4 +1,4 @@
-const db = require('../../db/index')
+const db = require('../db')
 
 class CategoriesService {
     async addNewCategory(body) {

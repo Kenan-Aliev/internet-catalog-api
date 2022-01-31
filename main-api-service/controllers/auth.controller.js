@@ -7,6 +7,7 @@ class AuthController {
             const response = await authService.registration(body)
             return res.send(response.data.message)
         } catch (e) {
+            console.log(e)
             next(e)
         }
     }

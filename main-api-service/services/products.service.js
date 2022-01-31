@@ -1,5 +1,5 @@
-const db = require('../../db/index')
-const ApiError = require('../../exceptions/api-error')
+const db = require('../db')
+const ApiError = require('../exceptions/api-error')
 const authService = require('./auth.service')
 
 class ProductsService {

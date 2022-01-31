@@ -1,0 +1,37 @@
+version: '3'
+services:
+  main:
+    build: './main-api-service'
+    ports:
+      - "8080:8080"
+    environment:
+      AUTH_URL: 'http://auth:5000'
+      POSTGRES_MAIN_USER: 'docker'
+      POSTGRES_MAIN_PASSWORD: '123456'
+      POSTGRES_MAIN_DATABASE: 'docker'
+      POSTGRES_MAIN_HOST: 'db'
+      POSTGRES_MAIN_PORT: '5432'
+    depends_on:
+      - db
+  auth:
+    build: './auth-api-service'
+    ports:
+      - "5000:5000"
+    environment:
+      POSTGRES_AUTH_USER: 'docker'
+      POSTGRES_AUTH_PASSWORD: '123456'
+      POSTGRES_AUTH_DATABASE: 'docker'
+      POSTGRES_AUTH_HOST: 'db'
+      POSTGRES_AUTH_PORT: '5432'
+    depends_on:
+      - db
+
+  db:
+    image: 'postgres'
+    environment:
+      POSTGRES_PASSWORD: '123456'
+      POSTGRES_USER: 'docker'
+    ports:
+      - "5432:5432"
+
+

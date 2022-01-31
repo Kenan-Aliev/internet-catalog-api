@@ -1,7 +1,7 @@
-const authService = require('../services/auth.service')
-const productService = require('../services/products.service')
-const ApiError = require('../../exceptions/api-error')
-const db = require('../../db/index')
+const authService = require('./auth.service')
+const productService = require('./products.service')
+const ApiError = require('../exceptions/api-error')
+const db = require('../db')
 
 class UserFavoriteProductsService {
     async add(productId, sessionId) {

@@ -5,11 +5,11 @@ const authRoutes = require('./routes/auth.routes')
 const categoryRoutes = require('./routes/categories.routes')
 const productRoutes = require('./routes/products.routes')
 const userFavoriteRoutes = require('./routes/userFavoriteProducts.routes')
-const queries = require('../db/queries')
-const exceptionMiddleware = require('../exceptions/middlewares/main-exception-middleware')
+const queries = require('./db/queries')
+const exceptionMiddleware = require('./exceptions/middlewares/main-exception-middleware')
 
 const mainServer = express()
-const PORT = process.env.MAIN_PORT
+const PORT = process.env.MAIN_PORT || 8080
 
 
 mainServer.use(express.json())

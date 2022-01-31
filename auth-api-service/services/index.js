@@ -1,5 +1,5 @@
-const db = require('../../db')
-const ApiError = require('../../exceptions/api-error')
+const db = require('../db')
+const ApiError = require('../exceptions/api-error')
 const bcrypt = require('bcrypt')
 const uuid = require('uuid')
 
